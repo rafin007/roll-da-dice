@@ -106,3 +106,8 @@ document.querySelector('.btn-hold').addEventListener('click', function() {
 
 //starts a new game
 document.querySelector('.btn-new').addEventListener('click', init);
+
+//rules
+document.querySelector('.btn-rules').addEventListener('click', function() {
+    alert("Roll 1 and you lose your current score and player switches. To add to your main score press hold. First player to get to 100 wins. Enjoy!");
+});
